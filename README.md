@@ -7,9 +7,11 @@ Create a beautifully-looking resume from an XML-file
 
 ### Information about you:
 ```
-<name>Your name</name>
-<phonenumber>070-86 01 911</phonenumber>
-<lastUpdated>2014-01-23</lastUpdated>
+<userInformation>
+... <name>Your name</name>
+... <phonenumber>070-86 01 911</phonenumber>
+... <lastUpdated>2014-01-23</lastUpdated>
+</userInformation>
 ```
 
 ### Information about your work-related skills
