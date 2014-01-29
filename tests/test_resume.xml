@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+	<userInformation name="Johan Wänglöf" phonenumber="004670-86 01 911" lastUpdated="2014-01-23">
+		<name>Johan Wänglöf</name>
+		<phonenumber>004670-86 01 911</phonenumber>
+		<lastUpdated>2014-01-23</lastUpdated>
+	</userInformation>
+
+	<workInformation>
+		<company>
+			<companyTitle>Company title</companyTitle>
+			<companyLocation>Company location</companyLocation>
+			<startDate>When I begun at the company (date-format)</startDate>
+			<endDate>When I quit the company (date-format)</endDate>
+			<jobTitle>Job title</jobTitle>
+			<jobDescription>Job description</jobDescription>
+		</company>
+
+		<company>
+			<companyTitle>Company2 title</companyTitle>
+			<companyLocation>Company2 location</companyLocation>
+			<startDate>When I begun at the company (date-format)</startDate>
+			<endDate>When I quit the company (date-format)</endDate>
+			<jobTitle>Job2 title</jobTitle>
+			<jobDescription>Job2 description</jobDescription>
+		</company>
+	</workInformation>
+
+	<educationInformation>
+		<education>
+			<educationName>Name of the education</educationName>
+			<educationLocation>Education location</educationLocation>
+			<educationStart>Start date of the education (date-format)</educationStart>
+			<educationEnd>End date of the education (date-format)</educationEnd>
+		</education>
+
+		<education>
+			<educationName>Education with course</educationName>
+			<educationLocation>Education location</educationLocation>
+			<educationStart>Start date of the education (date-format)</educationStart>
+			<educationEnd>End date of the education (date-format)</educationEnd>
+			<educationCourse>#OPTIONAL# Add a course on the education. Can be used multiple times</educationCourse>
+			<educationCourse>#OPTIONAL2# Add a course on the education. Can be used multiple times</educationCourse>
+		</education>
+	</educationInformation>
+
+	<skillInformation>
+		<skill>
+			<skillName>Name of the skill</skillName>
+			<skillLocation>Skill location</skillLocation>
+			<skillTitle>Skill title</skillTitle>
+			<skillDescription>Skill description</skillDescription>
+			<skillStart>#OPTIONAL# Start date (date-format)</skillStart>
+			<skillEnd>#OPTIONAL# End date (date-format)</skillEnd>
+		</skill>
+
+		<skill>
+			<skillName>Skill without start and end</skillName>
+			<skillLocation>Skill location</skillLocation>
+			<skillTitle>Skill title</skillTitle>
+			<skillDescription>Skill description</skillDescription>
+		</skill>
+	</skillInformation>
+</data>
