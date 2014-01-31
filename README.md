@@ -10,7 +10,9 @@ Create a beautifully-looking resume from an XML-file
 <userInformation>
 	<name>Your name</name>
 	<phonenumber>004670-86 01 911</phonenumber>
+	<email>jwanglof@gmail.com</email>
 	<lastUpdated>2014-01-23</lastUpdated>
+	<resumeLanguage>English</resumeLanguage>
 </userInformation>
 ```
 

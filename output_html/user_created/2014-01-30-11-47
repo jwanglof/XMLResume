@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>Resume</title>
+		<link rel="stylesheet" type="text/css" href="../bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="../style.css" />
+	</head>
+	<body>
+		<header class="row">
+			<div class="title col-md-10">
+				<span>
+					Johan Wänglöf
+				</span>
+				004670-86 01 911
+				jwanglof@gmail.com
+				2014-01-23
+			</div>
+			<div class="col-md-2">
+				<img src="../Testing.jpg" width="220px" />
+			</div>
+		</header>
+		<hr />
+		<div class="container">
+			workInformation
+
+			educationInformation
+
+			skillInformation
+		</div>
+	</body>
+</html>

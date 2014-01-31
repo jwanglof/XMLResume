@@ -5,7 +5,7 @@ class XMLResume:
 	tree = ""
 	root = ""
 
-	userInformation = {}
+	information = {}
 	workInformation = {}
 	educationInformation = {}
 	skillInformation = {}
@@ -15,15 +15,17 @@ class XMLResume:
 		self.tree = ET.parse(filename)
 		self.root = self.tree.getroot()
 
-	def setUserInformation(self):
-		userInfo = self.root.find("userInformation")
+	def setInformation(self):
+		userInfo = self.root.find("information")
 
-		self.userInformation["name"] = userInfo.find("name").text
-		self.userInformation["phonenumber"] = userInfo.find("phonenumber").text
-		self.userInformation["lastUpdated"] = userInfo.find("lastUpdated").text
+		self.information["fullName"] = userInfo.find("fullName").text
+		self.information["phonenumber"] = userInfo.find("phonenumber").text
+		self.information["email"] = userInfo.find("email").text
+		self.information["lastUpdated"] = userInfo.find("lastUpdated").text
+		self.information["resumeLanguage"] = userInfo.find("resumeLanguage").text
 
-	def getUserInformation(self):
-		return self.userInformation
+	def getInformation(self):
+		return self.information
 
 	def setWorkInformation(self):
 		workRoot = self.root.find("workInformation")

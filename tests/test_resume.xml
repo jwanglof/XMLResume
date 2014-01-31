@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <data>
-	<userInformation name="Johan Wänglöf" phonenumber="004670-86 01 911" lastUpdated="2014-01-23">
-		<name>Johan Wänglöf</name>
+	<information>
+		<fullName>Johan Wänglöf</fullName>
 		<phonenumber>004670-86 01 911</phonenumber>
+		<email>jwanglof@gmail.com</email>
 		<lastUpdated>2014-01-23</lastUpdated>
-	</userInformation>
+		<resumeLanguage>English</resumeLanguage>
+	</information>
 
 	<workInformation>
 		<company>

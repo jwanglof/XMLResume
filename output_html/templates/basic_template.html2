@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Resume</title>
+		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<header class="row">
+			<div class="title col-md-10">
+				<span>
+					<!-- FULLNAME -->
+				</span>
+				<!-- PHONENUMBER -->
+				<!-- EMAIL -->
+				<!-- LASTUPDATED -->
+			</div>
+			
+			<div class="col-md-2">
+				<img src="Testing.jpg" width="220px" />
+			</div>
+		</header>
+		
+		<hr />
+		
+		<div class="container">
+			<!-- workInformation -->
+			<!-- workInformation -->
+
+			<!-- educationInformation -->
+			<!-- educationInformation -->
+
+			<!-- skillInformation -->
+			<!-- skillInformation -->
+		</div>
+		
+	</body>
+</html>
